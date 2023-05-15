@@ -1,0 +1,54 @@
+/* Adicione estilo a body colando o estilo de fonte copiado */
+body
+{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  /* Adicione background color (cor de fundo) */
+  background: #f39dd2;
+}
+
+
+/* Adicione style a div header: Agora, adicionaremos estilo para a div header. A tag div que
+contém o cabeçalho possui uma class chamada ‘header_div’. */
+.header_div
+{
+  background: rgb(236, 199, 225);
+  color: #d8336d; 
+}
+
+
+/* Adicione estilo a tag header p: Agora, adicione estilo à tag p que está dentro de header_div. */
+.header_div p
+{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(245, 92, 163);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* Adicione estilo ao botão: Em seguida, adicione estilo ao botão dentro de main_div */
+.main_div button
+{
+     font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    width: 130px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.copy_right_footer 
+{
+  /* ajuste position (posição) para fixed (fixa). Ao fazer isso, essa div será fixada a
+uma posição no website. */
+
+   position: fixed;
+   color: #b80860;
+   bottom: 0;
+   width: 100%;
+   font-size: 18px;
+   background-color: #f4b7df;
+   line-height: 3;
+   text-align: left;
+   text-shadow: 5px 5px 5px rgb(244, 142, 212);
+   padding-left: 10px;
+}
